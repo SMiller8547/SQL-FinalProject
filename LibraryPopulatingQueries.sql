@@ -8,6 +8,9 @@ SELECT * FROM Reading.Library_Branch --DATA Entered
 SELECT * FROM Reading.Borrower --DATA Entered
 SELECT * FROM Reading.Book_Copies -- DATA Entered
 
+/*The comments above are referring to the aspect that the data in these tables has already been entered. 
+  You will not see insert statements for all of the tables as that would be redundant for this example. 
+  However, one sample is presented for illustrative purposes starting on line 22.*/
 
 ALTER TABLE Reading.Book_loans
 ADD FOREIGN KEY (BookID) REFERENCES reading.Book(BookID);
