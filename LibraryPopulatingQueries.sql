@@ -1,12 +1,12 @@
 USE booksNstuff
  
-SELECT * FROM reading.Book; --DATA INSTERTED
-SELECT * FROM reading.Book_Authors; -- DATA ENTERED 
-SELECT * FROM Reading.publisher; -- DATA INSERTED 
-SELECT * FROM reading.Book_Loans; --DATE ENTERED
-SELECT * FROM Reading.Library_Branch --DATA INSTERTED 
-SELECT * FROM Reading.Borrower --DATE INSERTED
-SELECT * FROM Reading.Book_Copies -- DATA INSTERTED
+SELECT * FROM reading.Book; --DATA Entered
+SELECT * FROM reading.Book_Authors; -- DATA Entered
+SELECT * FROM Reading.publisher; -- DATA Entered
+SELECT * FROM reading.Book_Loans; --DATA Entered
+SELECT * FROM Reading.Library_Branch --DATA Entered
+SELECT * FROM Reading.Borrower --DATA Entered
+SELECT * FROM Reading.Book_Copies -- DATA Entered
 
 
 ALTER TABLE Reading.Book_loans
